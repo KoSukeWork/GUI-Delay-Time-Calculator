@@ -27,6 +27,10 @@
       <FILE id="SyC7oU" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="BhkZlp" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
+      <FILE id="Ov5bFO" name="NumericLabel.hpp" compile="0" resource="0"
+            file="Source/NumericLabel.hpp"/>
+      <FILE id="EhKMrU" name="NumericLabel.cpp" compile="1" resource="0"
+            file="Source/NumericLabel.cpp"/>
       <FILE id="mi92Jz" name="BasicWindow.cpp" compile="1" resource="0" file="Source/BasicWindow.cpp"/>
       <FILE id="LykexJ" name="InformationComponent.h" compile="0" resource="0"
             file="Source/InformationComponent.h"/>

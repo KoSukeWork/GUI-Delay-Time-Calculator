@@ -15,3 +15,8 @@
 
 # Bugs to Fix:
 * None reported
+
+# Do Now
+Can I rely on To Values code for ToTempo?
+Rename functions in toTempo , toMS, to HZ to all be similar?
+Entering text into the field shouldn't stay there

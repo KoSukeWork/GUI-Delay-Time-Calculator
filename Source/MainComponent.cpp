@@ -611,6 +611,17 @@ MainComponent::MainComponent ()
 
     delayTimeCalculatorLabel->addMouseListener (this, false);
 
+    mainLabel.reset (new NumericLabel("mainLabel"));
+    addAndMakeVisible (mainLabel.get());
+    mainLabel->setFont (Font (25.00f, Font::plain).withTypefaceStyle ("Regular"));
+    mainLabel->setJustificationType (Justification::centredLeft);
+    mainLabel->setEditable (true, true, false);
+    mainLabel->setColour (TextEditor::textColourId, Colours::black);
+    mainLabel->setColour (TextEditor::backgroundColourId, Colour (0x00000000));
+    mainLabel->addListener (this);
+    mainLabel->setBounds (0, 50, 40, 40);
+
+
     //setupLabelCustomFont();
 
     //[/Constructor]

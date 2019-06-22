@@ -24,6 +24,7 @@
 #include "Enums.h"
 #include "TapTempo.hpp"
 #include "BasicWindow.cpp"
+#include "NumericLabel.hpp"
 //[/Headers]
 
 
@@ -90,6 +91,7 @@ private:
     TapTempo tapTempo;
     String tapCountString;
     SafePointer<BasicWindow> basicWindowSafePtr;
+    std::unique_ptr<NumericLabel> mainLabel;
 
     Font typewriterFont;
 
